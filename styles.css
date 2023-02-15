@@ -37,6 +37,17 @@ body {
   background-color: black;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--white-color);
+  border-radius: 10px;
+  border-right: 2px solid black;
+}
+
 /* HEADER */
 
 .header {
