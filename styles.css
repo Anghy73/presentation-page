@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
   width: 80%;
   height: 100%;
   padding: 10px;
-  margin: 15rem 0;
+  margin-top: 15rem;
   border-radius: 5px;
   overflow: hidden;
   letter-spacing: 2px;
@@ -168,6 +168,7 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--black-color);
   z-index: 1;
   padding: 30px;
+  overflow: hidden;
 }
 
 .main--info h2 {
@@ -336,7 +337,7 @@ body::-webkit-scrollbar-thumb {
 
   .main {
     grid-template-columns: 1fr;
-    top: calc(100% - 28%);
+    top: calc(100% - 35%);
     height: auto;
   }
 
@@ -347,6 +348,10 @@ body::-webkit-scrollbar-thumb {
   .main--img {
     width: 100%;
   }
+
+  .footer {
+    margin-top: calc(100% - 80%);
+  }
 }
 
 @media screen and (max-width: 731px) {
@@ -355,8 +360,24 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 656px) {
+  .footer {
+    margin-top: calc(100% - 75%);
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .footer {
+    margin-top: calc(100% - 70%);
+  }
+}
+
 @media screen and (max-width: 426px) {
   html {
     font-size: 50.5%;
+  }
+
+  .footer {
+    margin-top: calc(100% - 65%);
   }
 }
