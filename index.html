@@ -11,30 +11,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header class="header">
     <h1 class="header--logo">kataProg</h1>
-    <ul class="header--menu">
-      <li>
-        <a href="#">About me</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </header>
 
-  <main class="main rgb">
-    <div class="main--info">
-      <h2>Profile</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis animi et quia beatae laudantium eius sapiente harum illum, provident officiis consectetur molestias quas dolorem numquam, nam laborum fuga accusantium vitae!</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis animi et quia beatae laudantium eius sapiente harum illum, provident officiis consectetur molestias.</p>
+    <div class="navigation">
+      <button class="burger" onclick="show()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </button>
+      <nav>
+        <ul class="header--menu">
+          <li>
+            <a href="#about">About me</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="main--img">
-      <img src="./img/informático ionet.webp" alt="image of a developer working">
-    </div>
-  </main>
+      
+  </header>
+  <div>
+    <main id="about" class="main rgb">
+      <div class="main--info">
+        <h2>Profile</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis animi et quia beatae laudantium eius sapiente harum illum, provident officiis consectetur molestias quas dolorem numquam, nam laborum fuga accusantium vitae!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis animi et quia beatae laudantium eius sapiente harum illum, provident officiis consectetur molestias.</p>
+      </div>
+      <div class="main--img">
+        <img src="./img/informático ionet.webp" alt="image of a developer working">
+      </div>
+    </main>
+  </div>
 
   <footer id="contact" class="footer">
     <div class="foooter--networks">
