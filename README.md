@@ -1,5 +1,5 @@
 ## **Presentation-Page**
-![Presentation-Page](./img/Presentation-Page.png "page presentation photo")  
+![Presentation-Page](./Presentation-Page.png "page presentation photo")  
 
 This page was created with the purpose of reinforcing knowledge of git.  
 ***
